@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column; /* EMPILHA o h1 sobre o form */
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;          
+  margin: 0;
+  background-color: #e270a1;
+}
+
+/* O h1 agora ficará naturalmente acima */
+h1 {
+    margin-bottom: 20px; /* Ajuste o espaço entre o texto e a caixa */
+    color: #000000;
+    font-size: 28px;
+    width: 100%;
+    max-width: 200px; /* Mesma largura do form para alinhar perfeito */
+    text-align: left; /* Ou center, se preferir centralizado acima da caixa */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: rgb(222, 177, 203); /* Adicionei fundo para você ver a "caixa" */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
